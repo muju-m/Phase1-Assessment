@@ -6,6 +6,7 @@ public class addFiles {
 	public void create() throws IOException {
 		Scanner sc = new Scanner(System.in);
 		System.out.println("Enter the path for where the new file wants to be created");
+		/* Add // after the path you specfied*/
 		String path = sc.nextLine();
 		System.out.println("Enter the name of the file that you want to create");
 		String fileName = sc.next();

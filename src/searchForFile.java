@@ -5,6 +5,7 @@ public class searchForFile {
 	public void search() {
 		Scanner sc = new Scanner(System.in);
 		System.out.println("Enter the path from which you want to search the file from");
+		/* Add // after the path you specfied*/
 		String path = sc.nextLine();
 		System.out.println("enter the name of the file that you want to search");
 		String filename=sc.next();
@@ -22,10 +23,10 @@ public class searchForFile {
 		
 		}
 		if(flag==1) {
-			System.out.println("file is found");
+			System.out.println("File is found in the specfied path");
 		}
 		else {
-			System.out.println("file is not found");
+			System.out.println("File not found");
 		}
 	}
 }
